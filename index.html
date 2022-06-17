@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Permite carácteres extraños del alfabeto americano: ñ, á, é... -->
+    <meta charset="utf-8">
+    <!--Título que aparecerá en la pestaña - La estructura será el nombre de la página actual + Descripción del sitio-->
+    <title>Web Viajes</title>
+    <!-- Icono que acompañará al title. También será el icono que se guardará a la hora de que hagan un marcador. Se recomienda un tamaño de 32x32 y en PNG	-->
+    <link href="favicon.png" rel="icon" type="image/png">
+    <!-- (Opcional) Sugiere un color al navegador para personalizar la ventana -->
+    <meta name="theme-color" content="#E26D5A">
+    <!-- Bloquea el zoom en smartphones-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <!--Declara quien es el autor. Sin utilidad práctica -->
+    <meta name="author" content="Valentin Romero">
+    <!-- (Opcional) Indica con que tecnologias se ha generado el HTML -->
+    <!-- Declara palabras claves -->
+    <meta name="keywords" content="viajes, travel blog, traveling, ejecicio clase">
+    <!-- Declara la descripción de la web. Es utilizado por los motores de busqueda para la previa -->
+    <meta name="description" content="Una pagina de Ejercicio en clase para demostrar habilidades de CSS y HTML5">
+    <!-- Open Graph y Twitter card: Declara como se mostrará la previa del enlace si es compartida por Facebook o alguna otra red social -->
+    <meta property="og:image" content="img/miniatura.png">
+    <meta property="og:title" content="Mis Viajes">
+    <!-- website, video, audio, article, book o profile -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@cuenta">
+    <meta name="twitter:creator" content="@cuenta">
+    <!-- Normalizador normalize.css: Equilibra los estilos entre los Navegadores -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- Normalizador symbiosis.css: Arregla problemas en versiones de Smartphone -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sapps-studio/symbiosis-css/symbiosis.min.css">
+    <!-- Tus archivos CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+    <header class="header">
+        <p>
+            <img src="/img/profile.jpg" alt="Avatar" class="avatar">
+        </p>
+        <h1 class="header__title">Valentin Romero</h1>
+        <h2 class="header__subtitle">Una pequeña recopilación de mis viajes</h2>
+        <nav class="header__nav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#" class="nav__link">Ultimo</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">Proyectos</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">Sobre Mi</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="blog container">
+            <article class="articles">
+                <h2 class="article__title">El Agua Mas Clara</h2>
+                <p class="article__date">
+                    <time datetime="2011-11-18" class="article__contentdate">26 Oct 2021</time>
+                </p>
+                <p>
+                    <img src="/img/trip-1.jpg" alt="Paseo por el Lago" class="article__cover">
+                </p>
+                <div class="container container__blog">
+                    <p class="article__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto culpa cupiditate eum minus nobis omnis, saepe sapiente similique. Accusamus dolorum eius esse eveniet in iste iure libero mollitia nihil, quidem.
+                    </p>
+                    <p>
+                        <a href="#" class="article__readmore">Leer Mas</a>
+                    </p>
+                </div>
+            </article>
+            <article class="articles">
+                <h2 class="article__title">Magic Waterfalls</h2>
+                <p class="article__date">
+                    <time datetime="2011-11-18" class="article__contentdate">22 Oct 2021</time>
+                </p>
+                <p>
+                    <img src="/img/trip-2.jpg" alt="Cascadas" class="article__cover">
+                </p>
+                <div class="container container__blog">
+                    <p class="article__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto culpa cupiditate eum minus nobis omnis, saepe sapiente similique. Accusamus dolorum eius esse eveniet in iste iure libero mollitia nihil, quidem.
+                    </p>
+                    <p>
+                        <a href="#" class="article__readmore">Leer Mas</a>
+                    </p>
+                </div>
+            </article>
+            <article class="articles">
+                <h2 class="article__title">Los Pueblos de Bavaria</h2>
+                <p class="article__date">
+                    <time datetime="2011-11-18" class="article__contentdate">15 Oct 2021</time>
+                </p>
+                <p>
+                    <img src="/img/trip-3.jpg" alt="Pueblo Aleman" class="article__cover">
+                </p>
+                <div class="container container__blog">
+                    <p class="article__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto culpa cupiditate eum minus nobis omnis, saepe sapiente similique. Accusamus dolorum eius esse eveniet in iste iure libero mollitia nihil, quidem.
+                    </p>
+                    <p>
+                        <a href="#" class="article__readmore">Leer Mas</a>
+                    </p>
+                </div>
+            </article>
+            <article class="articles">
+                <h2 class="article__title">La Gran Muralla</h2>
+                <p class="article__date">
+                    <time datetime="2011-11-18" class="article__contentdate">8 Oct 2021</time>
+                </p>
+                <p>
+                    <img src="/img/trip-4.jpg" alt="Muralla China" class="article__cover">
+                </p>
+                <div class="container container__blog">
+                    <p class="article__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto culpa cupiditate eum minus nobis omnis, saepe sapiente similique. Accusamus dolorum eius esse eveniet in iste iure libero mollitia nihil, quidem.
+                    </p>
+                    <p>
+                        <a href="#" class="article__readmore">Leer Mas</a>
+                    </p>
+                </div>
+            </article>
+            <article class="articles">
+                <h2 class="article__title">Viajar en tiempos de COVID</h2>
+                <p class="article__date">
+                    <time datetime="2011-11-18" class="article__contentdate">22 Sep 2021</time>
+                </p>
+                <p>
+                    <img src="/img/trip-5.jpg" alt="Atardecer Aeropuerto" class="article__cover">
+                </p>
+                <div class="container container__blog">
+                    <p class="article__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto culpa cupiditate eum minus nobis omnis, saepe sapiente similique. Accusamus dolorum eius esse eveniet in iste iure libero mollitia nihil, quidem.
+                    </p>
+                    <p>
+                        <a href="#" class="article__readmore">Leer Mas</a>
+                    </p>
+                </div>
+            </article>
+            <article class="articles">
+                <h2 class="article__title">Un verano en Grecia</h2>
+                <p class="article__date">
+                    <time datetime="2011-11-18" class="article__contentdate">12 Sep 2021</time>
+                </p>
+                <p>
+                    <img src="/img/trip-6.jpg" alt="Islas griegas" class="article__cover">
+                </p>
+                <div class="container container__blog">
+                    <p class="article__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto culpa cupiditate eum minus nobis omnis, saepe sapiente similique. Accusamus dolorum eius esse eveniet in iste iure libero mollitia nihil, quidem.
+                    </p>
+                    <p>
+                        <a href="#" class="article__readmore">Leer Mas</a>
+                    </p>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+        <nav class="footer__nav">
+            <ul class="footer-nav__ul">
+                <li class="footer-nav__il">
+                    <a href="#" class="footer-nav__link">
+                        <img src="/img/instagram_icon.svg" alt="Instagram" class="footer-nav__icon">
+                    </a>
+                </li>
+                <li class="footer-nav__il">
+                    <a href="#" class="footer-nav__link">
+                        <img src="/img/twitter_icon.svg" alt="Twitter" class="footer-nav__icon">
+                    </a>
+                </li>
+                <li class="footer-nav__il">
+                    <a href="#" class="footer-nav__link">
+                        <img src="/img/facebook_icon.svg" alt="Facebook" class="footer-nav__icon">
+                    </a>
+                </li>
+                <li class="footer-nav__il">
+                    <a href="#" class="footer-nav__link">
+                        <img src="/img/pinterest_icon.svg" alt="Pinterest" class="footer-nav__icon">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <p class="footer__text">
+            &copy; 2021 Mi tema de Viajes
+        </p>
+    </footer>
+</body>
+</html>
